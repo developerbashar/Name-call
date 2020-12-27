@@ -1,0 +1,118 @@
+*{margin:0;padding:0}
+#mainSection{
+    background: url(../img/bg2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+#nameField {
+    width: 70%;
+    margin: auto;
+    margin-top: 10%;
+    background: linear-gradient(145deg, #e6e6e6, #ffffff);
+}
+#nameField h2 {
+    text-align: center;
+    padding: 14px 5px;
+    font-family: helvetica;
+    background: #be0707;
+    color: white;
+    font-weight: 500;
+    font-size: 30px;
+    box-shadow: 0px 10px 5px -3px #c7c6c6;
+}
+
+.textField {
+    text-align: center;
+    margin-top: 11%;
+}
+
+footer {
+    margin-top: 9%;
+    background: #be0707;
+    padding: 15px 22px;
+    color: white;
+    font-family: helvetica;
+    text-align: center;
+}
+
+#name {
+    margin: auto;
+}
+
+input#name {
+    padding: 6px 30px;
+    border: none;
+    outline: none;
+    color: #838383;
+    width: 100%;
+    margin: 49px 0px;
+    font-size: 30px;
+    text-align: center;
+}
+
+input#submit {
+    padding: 4px 30px;
+    outline: none;
+    border-radius: 10px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+#show {
+    font-size: 25px;
+    padding: 29px 20px;
+    text-align: center;
+}
+
+
+
+
+/****Error Message show***/
+
+h3#showErrMsg {
+    margin: 20px 0px;
+    text-align: center;
+    color: red;
+    font-weight: 700;
+}
+
+
+/*******Result Field css********/
+
+.resultField {
+    width: 70%;
+    margin: auto;
+    margin-top: 10%;
+    background: linear-gradient(145deg, #e6e6e6, #ffffff);
+    display: none;
+}
+
+.resultField h2 {
+    text-align: center;
+    padding: 14px 5px;
+    font-family: arial black;
+    background: #be0707;
+    margin-bottom: 9%;
+    color: white;
+    font-weight: 500;
+    font-size: 30px;
+    box-shadow: 0px 10px 5px -3px #c7c6c6;
+}
+.textFieldWrapper {
+    text-align: center;
+}
+input#backHome {
+    font-size: 25px;
+}
+h4#showName {
+    width: 35%;
+    background: red;
+    height: 45px;
+    text-align: center;
+    font-size: 30px;
+    margin: auto;
+    border-radius: 5px;
+    color: white;
+}

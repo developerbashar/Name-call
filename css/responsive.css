@@ -1,0 +1,73 @@
+@media(max-width: 768px){
+    #nameField {
+        width: 100%;
+
+    }
+    #nameField h2{
+        font-size: 24px;
+        padding: 9px 5px;
+    }
+    input#name{
+        font-size: 24px;
+    }
+    input#submit{
+        font-size: 24px;
+    }
+    footer h4{
+        font-size: 24px;
+    }
+    .resultField h2{
+        font-size: 24px;
+    }
+    h4#showName{
+        width: 95%;
+        font-size: 24px;
+    }
+    footer{
+        padding: 9px 22px;
+    }
+}
+
+@media(max-width: 576px){
+    #nameField {
+        width: 100%;
+
+    }
+    #nameField h2{
+        font-size: 20px;
+        padding: 9px 5px;
+    }
+    input#name{
+        font-size: 20px;
+    }
+    input#submit{
+        font-size: 20px;
+    }
+    footer h4{
+        font-size: 20px;
+    }
+    .resultField h2{
+        font-size: 20px;
+    }
+    h4#showName{
+        width: 95%;
+        font-size: 20px;
+    }
+    #show{
+        font-size: 20px;
+    }
+    input#backHome{
+        font-size: 20px;
+    }
+    footer{
+        padding: 9px 22px;
+    }
+}
+@media(max-width: 320px){
+    input#name{
+        font-size: 17px;
+    }
+    footer{
+        padding: 9px 22px;
+    }
+}
